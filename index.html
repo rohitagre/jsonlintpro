@@ -5,8 +5,8 @@
         <meta charset="utf-8">
         <meta name="description" content="JSON Lint is a web based validator and reformatter for JSON, a lightweight data-interchange format.">
         <title>JSONLint - The JSON Validator</title>
-        <link rel="stylesheet" href="css/screen.min.css?v=1.2" type="text/css"/>
-        <link href="css/jquery-linedtextarea.min.css?v=1.2" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/screen.min.css?v=1.3" type="text/css"/>
+        <link href="css/jquery-linedtextarea.min.css?v=1.3" type="text/css" rel="stylesheet" />
         <link rel="icon" type="image/png" href="/images/favicon.png" />
     </head>
     <body>
@@ -26,14 +26,14 @@
                     document.write('<sc' + 'ript type="text/javascript" src="js/utils/json2.min.js"></sc' + 'ript>');
                 }
             </script>
-            <script src="js/main.min.js?v=1.2"></script>
-            <script src="js/jsonlint/jsl.format.min.js?v=1.2"></script>
-            <script src="js/jsonlint/jsl.parser.min.js?v=1.2"></script>
+            <script src="js/main.min.js?v=1.3"></script>
+            <script src="js/jsonlint/jsl.format.min.js?v=1.3"></script>
+            <script src="js/jsonlint/jsl.parser.min.js?v=1.3"></script>
             <script>
                 // ServiceWorker is a progressive technology. Ignore unsupported browsers
                 if ('serviceWorker' in navigator) {
                     //console.log('CLIENT: service worker registration in progress.');
-                    navigator.serviceWorker.register('/service-worker.js?v=1.2').then(function () {
+                    navigator.serviceWorker.register('/service-worker.js?v=1.3').then(function () {
                         //console.log('CLIENT: service worker registration complete.');
                     }, function () {
                         //console.log('CLIENT: service worker registration failure.');
